@@ -1,0 +1,30 @@
+{
+  "name": "@jottaf-ui/react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.tsx --format esm, cjs --dts --external react",
+    "dev": "tsup src/index.tsx --format esm, cjs --dts --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@jottaf-ui/tokens": "*",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "react": "^18.2.0",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@radix-ui/react-avatar": "^1.0.1",
+    "@radix-ui/react-checkbox": "^1.0.1",
+    "@stitches/react": "^1.2.8",
+    "@storybook/addon-a11y": "^6.5.16",
+    "phosphor-react": "^1.4.1"
+  }
+}
