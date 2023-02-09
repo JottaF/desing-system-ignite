@@ -1,0 +1,2 @@
+import{A as t}from"./index.81d08d3c.js";import"./index.67a884ab.js";import"./iframe.8829c1eb.js";import"./index.73474eae.js";import"./jsx-runtime.fd74ef44.js";const m={title:"Data display/Avatar",component:t,args:{src:"https://github.com/jottaf.png",alt:"Jottaf"}},p={},c={args:{src:void 0}},l=["Primary","WithFallback"];export{p as Primary,c as WithFallback,l as __namedExportsOrder,m as default};
+//# sourceMappingURL=Avatar.stories.f76a14da.js.map
